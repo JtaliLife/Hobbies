@@ -1,0 +1,71 @@
+header  {
+        display:flex;
+        height:200px;
+        
+}
+
+nav     {
+        flex:1;
+        align-items:   {
+        list-style: none;
+        margin:0;
+        padding:0;
+            
+    }
+}
+body {
+    background:<svg xmlns=<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1566" viewBox="0 0 1920 1566">
+  <g id="Rectangle_11" data-name="Rectangle 11" fill="#3d115d" stroke="#707070" stroke-width="1" opacity="0.189">
+    <rect width="1920" height="1566" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1919" height="1565" fill="none"/>
+  </g>
+  <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(49 635)" fill="#2d074e" stroke="#707070" stroke-width="1" opacity="0.44">
+    <ellipse cx="455.5" cy="410.5" rx="455.5" ry="410.5" stroke="none"/>
+    <ellipse cx="455.5" cy="410.5" rx="455" ry="410" fill="none"/>
+  </g>
+  <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(947 452)" fill="#2d074e" stroke="#707070" stroke-width="1" opacity="0.44">
+    <ellipse cx="191.5" cy="172.5" rx="191.5" ry="172.5" stroke="none"/>
+    <ellipse cx="191.5" cy="172.5" rx="191" ry="172" fill="none"/>
+  </g>
+  <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1353 895)" fill="#2d074e" stroke="#707070" stroke-width="1" opacity="0.44">
+    <ellipse cx="255" cy="230" rx="255" ry="230" stroke="none"/>
+    <ellipse cx="255" cy="230" rx="254.5" ry="229.5" fill="none"/>
+  </g>
+</svg>
+ width="1920" height="1566" viewBox="0 0 1920 1566">
+  <g id="Rectangle_11" data-name="Rectangle 11" fill="#3d115d" stroke="#707070" stroke-width="1" opacity="0.189">
+    <rect width="1920" height="1566" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1919" height="1565" fill="none"/>
+  </g>
+</svg>
+;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
